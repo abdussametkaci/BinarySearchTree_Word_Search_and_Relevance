@@ -23,3 +23,6 @@ ilgili listenin ilk elemanı ise bu kelimenin a.html dosyasında 2 kere geçtiğ
 
 ![image](https://user-images.githubusercontent.com/61049743/94340332-95088000-0009-11eb-81a8-f4297bf27511.png)
 
+• Bütün dosyalar okunup BST’ye sözlük sırasına göre ekleme işlemleri tamamlandıktan sonra ise
+aşağıdaki gibi bir yapı oluşmaktadır.
+
