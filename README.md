@@ -27,3 +27,18 @@ ilgili listenin ilk elemanı ise bu kelimenin a.html dosyasında 2 kere geçtiğ
 aşağıdaki gibi bir yapı oluşmaktadır.
 
 ![image](https://user-images.githubusercontent.com/61049743/94340362-c4b78800-0009-11eb-8935-596506dfcfc8.png)
+
+• Buraya kadar yapılanlar, kelime arama sorguları için gerekli altyapıyı oluşturmamızı sağladı.
+Oluşturulan ağacı kelime sıklığı ağacı olarak isimlendirebiliriz. Bundan sonraki işlemler ise bu
+altyapıyı kullanarak kelime veya kelimelerin aranmasını ve bunların dosya bazlı alaka
+düzeylerinin hesaplanmasını içermektedir.
+
+• Dosyanın alaka düzeyi, aranan kelimelerin dosyada geçme sıklıkları toplamı olarak
+kabul edilmektedir. Örneğin, aranan anahtar kelimenin “data structures” olduğunu düşünelim.
+“data” kelimesi bir dosyada 3 kere geçmiş, “structures” kelimesi ise 5 kere geçmişse, “data
+structures” aramasının alaka düzeyi bu dosya için 3+5 = 8 olacaktır.
+
+• Bir sorguyu (aranan kelime veya kelimeler) işlemek için, her dosyanın alaka düzeyi kelime sıklığı
+ağacı kullanılarak hesaplanmaktadır ve hesaplanan alaka değerlerine göre sıralanacak bir Heap
+oluşturulmaktadır (Min Heap veya Max Heap farketmez ama tercihim Max Heap oldu). Sonrasında ise, bu oluşturulan Heap kullanılarak, o sorgu için bulunan
+sonuçlar en alakalı dosyadan en alakasız dosyaya doğru sıralı bir şekilde çıktı olarak verilmektedir. Yani Heap Sorting algoritması yazılmıştır.
