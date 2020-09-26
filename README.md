@@ -26,3 +26,4 @@ ilgili listenin ilk elemanı ise bu kelimenin a.html dosyasında 2 kere geçtiğ
 • Bütün dosyalar okunup BST’ye sözlük sırasına göre ekleme işlemleri tamamlandıktan sonra ise
 aşağıdaki gibi bir yapı oluşmaktadır.
 
+![image](https://user-images.githubusercontent.com/61049743/94340362-c4b78800-0009-11eb-8935-596506dfcfc8.png)
