@@ -20,3 +20,6 @@ tamamlanmaktadır.
 
 • Ağaç üzerindeki bir düğümün yapısı aşağıdaki gibidir. Data okunan kelimeyi göstermekte iken
 ilgili listenin ilk elemanı ise bu kelimenin a.html dosyasında 2 kere geçtiğini göstermektedir.
+
+![image](https://user-images.githubusercontent.com/61049743/94340332-95088000-0009-11eb-81a8-f4297bf27511.png)
+
