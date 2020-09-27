@@ -5,7 +5,7 @@
  * ve bu datalar agacta alfabetik siraya göre yerlestirilir
  * @assignment Odev 2
  * @date 13.05.2020
- * @author Abdussamet KACI abdussamet.kaci@stu.fsm.edu.tr
+ * @author Abdussamet KACI
  */
 package DataStructures_Project2;
 
